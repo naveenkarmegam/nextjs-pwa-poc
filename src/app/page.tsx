@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { InstallPrompt } from "./InstallPrompt";
-// import { PushNotificationManager } from "./PushNotificationMananger";
+import { PushNotificationManager } from "./PushNotificationMananger";
 import artBoard from "/public/img/art-board.png";
 import customLoop from "/public/img/custom-loop.png";
 import serverImg from "/public/img/server-img.png";
@@ -10,7 +10,7 @@ import CustomLoop from "./CustomLoop";
 export default function Page() {
   return (
     <div>
-      {/* <PushNotificationManager /> */}
+      <PushNotificationManager />
       <Hero />
       <InstallPrompt />
       <CustomLoop />
